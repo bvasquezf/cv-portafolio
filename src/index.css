@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2A2B2E;
+  --secondary: #F2F2F2;
+  --accent: #7C3AED;
+  --background: #FAFAFA;
+  --card: #FFFFFF;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--primary);
+}
+
+.hover-card {
+  transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-tag {
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  background-color: var(--accent);
+  color: white;
+  transform: scale(1.05);
+}
