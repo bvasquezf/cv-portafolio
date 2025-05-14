@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
+import img2 from '../img/img2.jpeg';
 
 export default function Header() {
   return (
@@ -14,7 +15,7 @@ export default function Header() {
             <motion.img
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
-              src="/img/img2.jpeg"
+              src={img2}
               alt="Perfil de Brian Vasquez"
               className="w-32 h-32 rounded-full object-cover border-4 border-secondary shadow-md"
             />
