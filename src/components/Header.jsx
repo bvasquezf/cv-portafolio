@@ -14,7 +14,7 @@ export default function Header() {
             <motion.img
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
-              src="../src/img/img2.jpeg"
+              src="/img/img2.jpeg"
               alt="Perfil de Brian Vasquez"
               className="w-32 h-32 rounded-full object-cover border-4 border-secondary shadow-md"
             />
